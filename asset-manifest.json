@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/testeMKS/static/css/main.8dace4af.css",
+    "main.js": "/testeMKS/static/js/main.fc62f6b8.js",
+    "index.html": "/testeMKS/index.html",
+    "main.8dace4af.css.map": "/testeMKS/static/css/main.8dace4af.css.map",
+    "main.fc62f6b8.js.map": "/testeMKS/static/js/main.fc62f6b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dace4af.css",
+    "static/js/main.fc62f6b8.js"
+  ]
+}
