@@ -1,0 +1,63 @@
+.card-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .card-container {
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+.description{
+  text-align: justify;
+}
+
+.card .img{
+  width: 40%;
+}
+
+.img-container{
+  text-align: center;
+}
+
+.card-info{
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5% 5% 0 0;
+  height: 20rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn{
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.price{
+  text-align: center;
+}
+
+.price span{
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+.comprar{
+  width: 100%;
+  background-color: #0F52BA;
+  color: white;
+  border: 1px solid #0F52BA;
+  border-radius: 0 0 50% 50%;
+  padding: 1rem;
+}
+
+.btn:hover{
+  background-color: #0b397e;
+}

@@ -1,0 +1,95 @@
+.close-cart{
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.close-cart:hover{
+    background-color: red;
+}
+
+.cart{
+    color: white;
+    background-color: #0F52BA;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.cart-items{
+    background-color: white;
+    color: black;
+    max-height: 25rem; 
+    overflow-y: auto;
+}
+.cart-items li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px; 
+  }
+  
+.delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ff0000;
+    font-size: 20px;
+    transition: 0.3s;
+}
+  
+.cart-items img {
+    width: 50px;
+    height: auto;
+}
+
+.cart-items h3 {
+    margin: 0;
+}
+
+.cart-items .price {
+    margin: 0 10px;
+}
+
+.remove, .add {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.cart-items .remove {
+    margin-right: 5px; 
+}
+
+.cart-items .add {
+    margin-left: 5px;
+}
+
+.buy{
+    width: 100%;
+    background-color: black;
+    border: none;
+    transition: 0.3s;
+    color: white;
+    font-size: 1.5rem;
+    padding: 25px;
+
+}
+
+.remove:hover{
+    background-color: red;
+}
+
+.delete:hover{
+    transform: scale(1.2);
+}
+
+.add:hover, .buy:hover{
+    background-color: green;
+}
